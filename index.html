@@ -1,0 +1,33 @@
+<!doctype html>
+<title>Secret Vault</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="styles.css">
+<script defer src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+<script defer src="vault.js"></script>
+
+<header>
+    <h1>Hutch Database</h1>
+    <form>
+        <label for="keyphrase">Key Phrase</label>
+        <input id="keyphrase" type="password">
+    </form>
+</header>
+
+<main>
+    <section id="add">
+        <div>
+        <label for="label" placeholder="Description for the data">Full Name</label>
+        <input id="label" placeholder="Description for the data">
+       </div>
+        <label for="data">Number</label>
+        <input id="data" placeholder="Data you want to hide">
+        <button id="btnAdd">Add Entry</button>
+    </section>
+
+    <dl id="list">
+       
+    </dl>
+
+    <p id="empty">Empty Database</p>
+</main>
