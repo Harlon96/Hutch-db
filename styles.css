@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h1 {
+    background-color: red;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    font-size: 1.4em;
+    text-align: center;
+}
+header>form {
+    padding: 15px;
+    background-color: lime;
+    color: #EEE;
+}
+label {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20%;
+    font-size: 0.8em;
+    text-align: right;
+}
+input {
+    border-radius: 20px;
+    display: inline-block;
+    width: 50%;
+}
+main {
+    padding: 15px;
+}
+button {
+    margin-left: 23%;
+    border-radius: 20px;
+    display: block;
+    width: 52%;
+    background-color: #333;
+    color: white;
+    margin-top: 5px;
+}
+
+dt {
+    color: #300;
+    font-weight: bold;
+    border-top: 1px dashed #A00;
+    padding-top: 5px;
+}
+
+#empty {
+    text-align: center;
+    color: #A00;
+}
